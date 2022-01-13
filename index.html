@@ -33,7 +33,7 @@
         <!--articolo composto da 2 paragrafi, lista e tabella (formattare tabella con colori e spazi) -->
         <section>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="evidenziato"> Voluptatum atque nemo at deleniti deserunt alias quisquam nostrum ad doloremque,</span> asperiores consectetur explicabo? Unde saepe repellat provident doloremque iste assumenda modi.</p>
-            <ul>
+            <ul class="Lista">
                 <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li>
@@ -42,9 +42,9 @@
             <table>
                 <thead>
                     <tr class="Tabella-intestazione">
-                        <th>Lorem Ipsum dolor</th>
-                        <th>Lorem Ipsum dolor</th>
-                        <th>Lorem Ipsum dolor</th>
+                        <th class="cella">Lorem Ipsum dolor</th>
+                        <th class="cella">Lorem Ipsum dolor</th>
+                        <th class="cella">Lorem Ipsum dolor</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -73,8 +73,14 @@
     <!-- pie di pagina con suggerimenti ad altri articoli (Inserire i titoli sopa le immagini) -->
     <footer>
         <h3 class="Colore-Testo">Potrebbero Interessarti</h3>
-        <img src="img/monitor.jpg" alt="Pc">Lorem Ipsum Dolor
-        <img src="img/graph.jpg" alt="Mappa con dati">Lorem Ipsum Dolor
+        <div>
+            <img src="img/monitor.jpg" alt="Pc" class="Foto">
+            <span class="testo-foto">Lorem Ipsum Dolor</span> 
+        </div>
+        <div>
+            <img src="img/graph.jpg" alt="Mappa con dati" class="Foto">
+            <span class="testo-foto">Lorem Ipsum Dolor</span> 
+        </div>
         <br>
         <div>Credits by Boolean</div>
 
