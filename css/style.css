@@ -6,13 +6,30 @@ header {
     background-image: url("../img/pattern.png");
     background-color: 	#6495ED;
     background-size: 200px;
+    height: 50px;
     background-repeat: repeat;
 }
 
 #Logo{
     width: 10%;
+    position: absolute;
+    top: 25px
 }
 
 #Sfondo{
     background-color: white;
+}
+
+.Colore-Testo{
+    color: gray;
+}
+.Tabella-intestazione {
+    background-color: rgb(29, 151, 231);
+    color: snow;
+    text-align: left;
+}
+
+.Tabella-riga1{
+    background-color: rgb(82, 198, 252);
+    text-align: left;
 }
