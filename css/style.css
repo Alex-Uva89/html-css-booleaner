@@ -8,6 +8,7 @@ header {
     background-size: 200px;
     height: 50px;
     background-repeat: repeat;
+    position: relative;
 }
 
 #Logo{
@@ -70,8 +71,8 @@ table{
 
 .testo-foto {
     position: absolute;
+    top: 8px;
     left: 30px;
-    bottom: 5px;
-    color: white;
-    
+    color: white;  
+    font-size: 25px;
 }
