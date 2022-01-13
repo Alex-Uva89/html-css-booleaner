@@ -2,9 +2,10 @@ html {
     font-family: 'Times New Roman', Times, serif;
 }
 
-body {
+header {
     background-image: url("../img/pattern.png");
     background-color: 	#6495ED;
+    background-size: 200px;
     background-repeat: repeat;
 }
 
