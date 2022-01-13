@@ -5,4 +5,13 @@ html {
 body {
     background-image: url("../img/pattern.png");
     background-color: 	#6495ED;
+    background-repeat: repeat;
+}
+
+#Logo{
+    width: 10%;
+}
+
+#Sfondo{
+    background-color: white;
 }
